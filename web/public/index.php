@@ -2,7 +2,9 @@
 
 include '../app/vendor/autoload.php';
 $foo = new App\Foo();
+$contaBancaria = new App\ContaBancaria();
 
+var_dump($contaBancaria);
 ?>
 
 <!DOCTYPE html>
